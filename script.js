@@ -90,16 +90,16 @@ function executarComando() {
       resp.textContent = "full stack dev + educador na microlins, formado em desenvolvimento web pela escola virtual (fundação bradesco)";
       break;
     case "skills":
-      resp.textContent = "python, html/css/js, sql, power bi, linux (bash), redes e automação";
+      resp.textContent = "python, html/css/js, Excel Avançado,VBA, Python, linux, Hardware, redes e automação";
       break;
     case "projetos":
-      resp.textContent = "micromundo, netcheck, workshop de ia, chega pra cá, churrascaria do thur";
+      resp.textContent = "Em Breve...";
       break;
     case "contato":
       resp.textContent = "instagram: @valdickkkk";
       break;
     case "github":
-      resp.textContent = "configure o link real do github no index.html";
+      resp.textContent = "valdickrodrigues07-prog";
       break;
     case "resumo":
       resp.textContent = "portfólio do valdick: desenvolvimento, educação, projetos de tecnologia e skills.";
