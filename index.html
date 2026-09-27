@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portfólio de Valdick Rodrigues — desenvolvimento, dados e educação.">
+<title>Valdick Rodrigues — Full Stack Developer & Educador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo" onclick="goHome()" style="cursor:pointer;">valdick<span class="dim">@portfolio:~$</span></div>
+  <ul class="nav-links">
+    <li><a href="#sobre">sobre</a></li>
+    <li><a href="#formacao">formação</a></li>
+    <li><a href="#trabalhos">trabalhos</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#contato">contato</a></li>
+  </ul>
+</nav>
+
+<div id="home">
+<header class="hero">
+  <div class="hero-grid">
+    <div class="hero-intro">
+      <div class="kicker">// desenvolvimento, dados e educação</div>
+      <h1>Valdick Rodrigues</h1>
+      <div class="role-line" id="roleLine"></div>
+      <div class="hero-buttons">
+        <a href="#trabalhos" class="btn btn-primary">Ver trabalhos</a>
+        <a href="https://instagram.com/valdickkkk" target="_blank" rel="noopener noreferrer" class="btn btn-outline">@valdickkkk</a>
+      </div>
+    </div>
+    <div class="term">
+      <div class="term-bar"><span></span><span></span><span></span></div>
+      <div class="term-body">
+        <div><span class="p">$</span> whoami</div>
+        <div>valdick_rodrigues — full stack dev</div>
+        <div><span class="p">$</span> cat stack.txt</div>
+        <div>Python · HTML/CSS/JS · SQL · Power BI · Linux</div>
+        <div><span class="p">$</span> status</div>
+        <div class="c">ensinando na Microlins e programando à noite</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="sobre">
+  <div class="eyebrow">sobre</div>
+  <h2 class="section-title">Entre a sala de aula e o terminal</h2>
+  <p class="about-text">
+    Sou desenvolvedor full stack e também atuo na área pedagógica da Microlins, onde ajudo
+    pessoas a desenvolverem comunicação, organização e habilidades de tecnologia.
+    Minha formação em desenvolvimento web foi feita pela Escola Virtual da Fundação Bradesco,
+    e continuo estudando Python, HTML/CSS/JS, SQL, Power BI e Linux na prática.
+  </p>
+  <p class="about-text">
+    Boa parte dos meus problemas eu resolvo dentro de um terminal Linux — de configuração de
+    rede a automação — e essa mesma curiosidade me leva a criar conteúdo e projetos de tecnologia.
+  </p>
+</section>
+
+<section id="formacao">
+  <div class="eyebrow">formação</div>
+  <h2 class="section-title">De onde vim, pra onde vou</h2>
+  <div class="term" style="max-width:520px;">
+    <div class="term-bar"><span></span><span></span><span></span></div>
+    <div class="term-body">
+      <div><span class="p">$</span> cat formacao.txt</div>
+      <div>Desenvolvimento Web — Escola Virtual (Fundação Bradesco), concluído</div>
+      <div class="c">Lógica de programação, Python e administração Linux — estudo contínuo, na prática</div>
+    </div>
+  </div>
+</section>
+
+<section id="trabalhos">
+  <div class="eyebrow">trabalhos</div>
+  <h2 class="section-title">O que já coloquei no ar</h2>
+
+  <div class="featured">
+    <span class="featured-mark">projeto autoral</span>
+    <div>
+      <h3>MicroMundo</h3>
+      <p>Jogo educativo sobre microbiologia, construído do zero em HTML, CSS e JavaScript
+      puro — pensado para tornar conteúdo de biologia mais concreto para quem está aprendendo.</p>
+    </div>
+  </div>
+
+  <div class="proj-list">
+    <div class="proj-row">
+      <h4>Chega pra Cá</h4>
+      <p>Restaurante nordestino fictício, criado em grupo no workshop de IA: site com cardápio, promoções e identidade visual.</p>
+      <span class="proj-tag">web</span>
+    </div>
+    <div class="proj-row">
+      <h4>Churrascaria do Thur</h4>
+      <p>Marca fictícia do mesmo workshop: identidade visual robusta e amadeirada, pensada para passar sensação de casa.</p>
+      <span class="proj-tag">branding</span>
+    </div>
+    <div class="proj-row">
+      <h4>Workshop de IA — Microlins</h4>
+      <p>Arte e conteúdo de divulgação para o workshop de Inteligência Artificial.</p>
+      <span class="proj-tag">educação</span>
+    </div>
+    <div class="proj-row">
+      <h4>NetCheck</h4>
+      <p>Script em Python/Bash que diagnostica e reconecta o Wi-Fi automaticamente via nmcli.</p>
+      <button class="btn btn-outline small-btn" onclick="openPage('netcheck')">Ver projeto</button>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="eyebrow">skills</div>
+  <h2 class="section-title">Ferramentas que uso de verdade</h2>
+  <div class="skills">
+    <span class="skill">Python</span>
+    <span class="skill">HTML / CSS / JS</span>
+    <span class="skill">SQL</span>
+    <span class="skill">Power BI</span>
+    <span class="skill">Linux (Bash)</span>
+    <span class="skill">Redes & automação</span>
+    <span class="skill">Identidade visual</span>
+    <span class="skill">Educação técnica</span>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="contact">
+    <div class="contact-prompt">$ contato --iniciar</div>
+    <h2>Bora trocar uma ideia?</h2>
+    <p>Chama no Instagram ou usa um dos canais abaixo.</p>
+    <div class="socials">
+      <a href="https://instagram.com/valdickkkk" target="_blank" rel="noopener noreferrer" class="social">Instagram — @valdickkkk</a>
+      <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" class="social">GitHub</a>
+      <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer" class="social">LinkedIn</a>
+      <a href="mailto:seu@email.com" class="social">E-mail</a>
+      <a href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener noreferrer" class="social">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Valdick Rodrigues</footer>
+</div>
+
+<div id="page-netcheck" class="page" style="display:none;">
+  <section>
+    <div class="eyebrow">projeto</div>
+    <h2 class="section-title">NetCheck</h2>
+    <p class="about-text">
+      Depois de resolver problemas de Wi-Fi na prática, decidi automatizar tarefas repetitivas:
+      um script em Python e Bash que usa <strong>nmcli</strong> para diagnosticar a interface,
+      reiniciar o serviço quando necessário e reconectar à rede salva, registrando informações em log.
+    </p>
+    <p class="about-text">
+      Nasceu de um problema real e repetitivo e virou uma ferramenta de bolso para máquinas Linux.
+    </p>
+    <div class="term" style="max-width:480px;margin-top:1.6rem;">
+      <div class="term-bar"><span></span><span></span><span></span></div>
+      <div class="term-body">
+        <div><span class="p">$</span> netcheck --diagnosticar</div>
+        <div class="c">verificando interface wlan0...</div>
+        <div class="c">sinal fraco detectado, reconectando...</div>
+        <div>conexão restabelecida em 4s</div>
+      </div>
+    </div>
+    <div class="hero-buttons" style="margin-top:2rem;">
+      <button class="btn btn-outline" onclick="goHome()">Voltar</button>
+    </div>
+  </section>
+</div>
+
+<button class="fab" onclick="toggleFabMenu()" aria-label="Abrir menu">&gt;_</button>
+<div class="fab-menu" id="fabMenu">
+  <button onclick="openModal('form')">Formulário</button>
+  <button onclick="openModal('val')">Agente Val</button>
+  <button onclick="openModal('term')">Terminal</button>
+</div>
+
+<div class="modal-overlay" id="modal-form">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('form')" aria-label="Fechar">×</button>
+    <div class="eyebrow">contato</div>
+    <h3 style="margin-bottom:1rem;">Manda uma mensagem</h3>
+    <form onsubmit="return enviarFormulario(event)">
+      <div class="form-field"><label>Nome</label><input type="text" id="cf-nome" required></div>
+      <div class="form-field"><label>Seu e-mail</label><input type="email" id="cf-email" required></div>
+      <div class="form-field"><label>Mensagem</label><textarea id="cf-msg" rows="4" required></textarea></div>
+      <button type="submit" class="btn btn-primary full-btn">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-val">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('val')" aria-label="Fechar">×</button>
+    <div class="eyebrow">agente val</div>
+    <h3 style="margin-bottom:0.4rem;">Pergunte sobre o Valdick</h3>
+    <p class="chat-limit">Limite de uso por visitante aplicado automaticamente.</p>
+    <div class="chat-log" id="chatLog"></div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" maxlength="500" placeholder="Digite sua pergunta..." onkeydown="if(event.key==='Enter'){enviarPergunta()}">
+      <button class="btn btn-primary" onclick="enviarPergunta()">Enviar</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-term">
+  <div class="modal-box" style="max-width:520px;">
+    <button class="modal-close" onclick="closeModal('term')" aria-label="Fechar">×</button>
+    <div class="term" style="margin:0;">
+      <div class="term-bar"><span></span><span></span><span></span></div>
+      <div class="term-body" id="termOutput" style="max-height:260px;overflow-y:auto;">
+        <div>Bem-vindo. Digite <span class="p">help</span> pra ver os comandos.</div>
+      </div>
+      <div class="terminal-input-row">
+        <span class="p">$</span>
+        <input type="text" id="termInput" autocomplete="off" onkeydown="if(event.key==='Enter'){executarComando()}">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
