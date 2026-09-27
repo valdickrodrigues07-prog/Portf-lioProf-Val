@@ -52,7 +52,7 @@ function enviarFormulario(e) {
   const email = document.getElementById("cf-email").value;
   const msg = document.getElementById("cf-msg").value;
   const corpo = encodeURIComponent(`Nome: ${nome}\nE-mail: ${email}\n\n${msg}`);
-  window.location.href = "mailto:seu@email.com?subject=Contato pelo site&body=" + corpo;
+  window.location.href = "mailto:Valprograming07@outlook.com?subject=Contato pelo site&body=" + corpo;
   return false;
 }
 
