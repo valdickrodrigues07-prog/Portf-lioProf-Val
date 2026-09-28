@@ -15,11 +15,11 @@
 <nav>
   <div class="logo" onclick="goHome()" style="cursor:pointer;">valdick<span class="dim">@portfolio:~$</span></div>
   <ul class="nav-links">
-    <li><a href="#sobre">sobre</a></li>
-    <li><a href="#formacao">formação</a></li>
-    <li><a href="#trabalhos">trabalhos</a></li>
-    <li><a href="#skills">skills</a></li>
-    <li><a href="#contato">contato</a></li>
+    <li><a href="#sobre" data-i18n="nav.sobre">sobre</a></li>
+    <li><a href="#formacao" data-i18n="nav.formacao">formação</a></li>
+    <li><a href="#trabalhos" data-i18n="nav.trabalhos">trabalhos</a></li>
+    <li><a href="#skills" data-i18n="nav.skills">skills</a></li>
+    <li><a href="#contato" data-i18n="nav.contato">contato</a></li>
   </ul>
 </nav>
 
@@ -27,11 +27,11 @@
 <header class="hero">
   <div class="hero-grid">
     <div class="hero-intro">
-      <div class="kicker">// desenvolvimento, dados e educação</div>
+      <div class="kicker" data-i18n="hero.kicker">// desenvolvimento, dados e educação</div>
       <h1>Valdick Rodrigues</h1>
       <div class="role-line" id="roleLine"></div>
       <div class="hero-buttons">
-        <a href="#trabalhos" class="btn btn-primary">Ver trabalhos</a>
+        <a href="#trabalhos" class="btn btn-primary" data-i18n="hero.btn_trabalhos">Ver trabalhos</a>
         <a href="https://www.instagram.com/valdickrod?stkn=YzRyeXJjYm92NWUw" target="_blank" rel="noopener noreferrer" class="btn btn-outline">@valdickkkk</a>
       </div>
     </div>
@@ -43,36 +43,36 @@
         <div><span class="p">$</span> cat stack.txt</div>
         <div>Python · HTML/CSS/JS · Python · Excel Avançado VBA· Linux</div>
         <div><span class="p">$</span> status</div>
-        <div class="c">ensinando na Microlins e programando à noite</div>
+        <div class="c" data-i18n="hero.term_status">ensinando na Microlins e programando à noite</div>
       </div>
     </div>
   </div>
 </header>
 
 <section id="sobre">
-  <div class="eyebrow">sobre</div>
-  <h2 class="section-title">Entre a sala de aula e o terminal</h2>
-  <p class="about-text">
+  <div class="eyebrow" data-i18n="sobre.eyebrow">sobre</div>
+  <h2 class="section-title" data-i18n="sobre.title">Entre a sala de aula e o terminal</h2>
+  <p class="about-text" data-i18n="sobre.text1">
     Sou desenvolvedor full stack e também atuo na área pedagógica da Microlins, onde ajudo
     pessoas a desenvolverem comunicação, organização e habilidades de tecnologia.
     Minha formação em desenvolvimento web foi feita pela Escola Virtual da Fundação Bradesco,
     e continuo estudando Python, HTML/CSS/JS, SQL, Power BI e Linux na prática.
   </p>
-  <p class="about-text">
+  <p class="about-text" data-i18n="sobre.text2">
     Boa parte dos meus problemas eu resolvo dentro de um terminal Linux — de configuração de
     rede a automação — e essa mesma curiosidade me leva a criar conteúdo e projetos de tecnologia.
   </p>
 </section>
 
 <section id="formacao">
-  <div class="eyebrow">formação</div>
-  <h2 class="section-title">De onde vim, pra onde vou</h2>
+  <div class="eyebrow" data-i18n="formacao.eyebrow">formação</div>
+  <h2 class="section-title" data-i18n="formacao.title">De onde vim, pra onde vou</h2>
   <div class="term" style="max-width:520px;">
     <div class="term-bar"><span></span><span></span><span></span></div>
     <div class="term-body">
       <div><span class="p">$</span> cat formacao.txt</div>
-      <div>Desenvolvimento Web — Escola Virtual (Fundação Bradesco), concluído</div>
-      <div class="c">Lógica de programação, Python e administração Linux — estudo contínuo, na prática</div>
+      <div data-i18n="formacao.t1_l1">Desenvolvimento Web — Escola Virtual (Fundação Bradesco), concluído</div>
+      <div class="c" data-i18n="formacao.t1_l2">Lógica de programação, Python e administração Linux — estudo contínuo, na prática</div>
     </div>
   </div>
 <br>
@@ -80,18 +80,18 @@
     <div class="term-bar"><span></span><span></span><span></span></div>
     <div class="term-body">
       <div><span class="p">$</span> cat formacao.txt</div>
-      <div>Inglês Intermediário (Microlins), cursando [2 Anos] </div>
-      <div class="c">Conversação, escrita e escuta — estudo contínuo </div>
+      <div data-i18n="formacao.t2_l1">Inglês Intermediário (Microlins), cursando [2 Anos] </div>
+      <div class="c" data-i18n="formacao.t2_l2">Conversação, escrita e escuta — estudo contínuo </div>
     </div>
   </div>
 </section>
 
 <section id="trabalhos">
-  <div class="eyebrow">trabalhos</div>
-  <h2 class="section-title">O que já coloquei no ar</h2>
+  <div class="eyebrow" data-i18n="trabalhos.eyebrow">trabalhos</div>
+  <h2 class="section-title" data-i18n="trabalhos.title">O que já coloquei no ar</h2>
 
   <div class="featured">
-    <span class="featured-mark">projeto autoral</span>
+    <span class="featured-mark" data-i18n="trabalhos.featured_mark">projeto autoral</span>
     <div>
       <h3>Pensando</h3>
       <p>Lorem Epsum...</p>
@@ -101,47 +101,47 @@
   <div class="proj-list">
     <div class="proj-row">
       <h4>Chega pra Cá</h4>
-      <p>Restaurante nordestino fictício, criado em grupo no workshop de IA: site com cardápio, promoções e identidade visual.</p>
-      <span class="proj-tag">web</span>
+      <p data-i18n="trabalhos.proj1_desc">Restaurante nordestino fictício, criado em grupo no workshop de IA: site com cardápio, promoções e identidade visual.</p>
+      <span class="proj-tag" data-i18n="trabalhos.proj1_tag">web</span>
     </div>
     <div class="proj-row">
-      <h4> Desenvolvimento Linux</h4>
-      <p>Buscando entender linux,reviver maquinas e atémesmo muscando liberdade e entendendo a arte do sistema.</p>
-      <span class="proj-tag">branding</span>
+      <h4 data-i18n="trabalhos.proj2_title"> Desenvolvimento Linux</h4>
+      <p data-i18n="trabalhos.proj2_desc">Buscando entender linux,reviver maquinas e atémesmo muscando liberdade e entendendo a arte do sistema.</p>
+      <span class="proj-tag" data-i18n="trabalhos.proj2_tag">branding</span>
     </div>
     <div class="proj-row">
-      <h4> Desenvolvimento em Hardware</h4>
-      <p>Arrumando notebooks e computadores por todo canto deste são paulo,em busca de aprender como a arquitetura da computação funciona na prática.</p>
-      <span class="proj-tag">educação</span>
+      <h4 data-i18n="trabalhos.proj3_title"> Desenvolvimento em Hardware</h4>
+      <p data-i18n="trabalhos.proj3_desc">Arrumando notebooks e computadores por todo canto deste são paulo,em busca de aprender como a arquitetura da computação funciona na prática.</p>
+      <span class="proj-tag" data-i18n="trabalhos.proj3_tag">educação</span>
     </div>
   </div>
 </section>
 
 <section id="skills">
-  <div class="eyebrow">skills</div>
-  <h2 class="section-title">Ferramentas que uso de verdade</h2>
+  <div class="eyebrow" data-i18n="skills.eyebrow">skills</div>
+  <h2 class="section-title" data-i18n="skills.title">Ferramentas que uso de verdade</h2>
   <div class="skills">
     <span class="skill">Python</span>
     <span class="skill">HTML / CSS / JS</span>
-    <span class="skill">Montagem e Manutençãode Computadores</span>
-    <span class="skill">Excel Avançado</span>
+    <span class="skill" data-i18n="skills.montagem">Montagem e Manutençãode Computadores</span>
+    <span class="skill" data-i18n="skills.excel">Excel Avançado</span>
     <span class="skill">Linux (Bash)</span>
-    <span class="skill">Redes & automação</span>
-    <span class="skill">Identidade visual</span>
-    <span class="skill">Educação técnica</span>
+    <span class="skill" data-i18n="skills.redes">Redes & automação</span>
+    <span class="skill" data-i18n="skills.identidade">Identidade visual</span>
+    <span class="skill" data-i18n="skills.educacao">Educação técnica</span>
   </div>
 </section>
 
 <section id="contato">
   <div class="contact">
-    <div class="contact-prompt">$ contato --iniciar</div>
-    <h2>Bora trocar uma ideia?</h2>
-    <p>Chama no Instagram ou usa um dos canais abaixo.</p>
+    <div class="contact-prompt" data-i18n="contato.prompt">$ contato --iniciar</div>
+    <h2 data-i18n="contato.title">Bora trocar uma ideia?</h2>
+    <p data-i18n="contato.text">Chama no Instagram ou usa um dos canais abaixo.</p>
     <div class="socials">
       <a href="https://www.instagram.com/valdickrod?stkn=YzRyeXJjYm92NWUw" target="_blank" rel="noopener noreferrer" class="social">Instagram — @valdickkkk</a>
       <a href="https://github.com/valdickrodrigues07-prog" target="_blank" rel="noopener noreferrer" class="social">GitHub</a>
       <a href="https://www.linkedin.com/in/valdick-rodrigues-490a48369?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social">LinkedIn</a>
-      <a href="mailto:Valprograming07@outlook.com" class="social">E-mail</a>
+      <a href="mailto:Valprograming07@outlook.com" class="social" data-i18n="contato.email">E-mail</a>
     </div>
   </div>
 </section>
@@ -161,20 +161,20 @@
 
 <button class="fab" onclick="toggleFabMenu()" aria-label="Abrir menu">&gt;_</button>
 <div class="fab-menu" id="fabMenu">
-  <button onclick="openModal('form')">Formulário</button>
+  <button onclick="openModal('form')" data-i18n="fab.form">Formulário</button>
   <button onclick="openModal('term')">Terminal</button>
 </div>
 
 <div class="modal-overlay" id="modal-form">
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal('form')" aria-label="Fechar">×</button>
-    <div class="eyebrow">contato</div>
-    <h3 style="margin-bottom:1rem;">Manda uma mensagem</h3>
+    <div class="eyebrow" data-i18n="contato.eyebrow">contato</div>
+    <h3 style="margin-bottom:1rem;" data-i18n="form.titulo">Manda uma mensagem</h3>
     <form onsubmit="return enviarFormulario(event)">
-      <div class="form-field"><label>Nome</label><input type="text" id="cf-nome" required></div>
-      <div class="form-field"><label>Seu e-mail</label><input type="email" id="cf-email" required></div>
-      <div class="form-field"><label>Mensagem</label><textarea id="cf-msg" rows="4" required></textarea></div>
-      <button type="submit" class="btn btn-primary full-btn">Enviar</button>
+      <div class="form-field"><label data-i18n="form.nome">Nome</label><input type="text" id="cf-nome" required></div>
+      <div class="form-field"><label data-i18n="form.email">Seu e-mail</label><input type="email" id="cf-email" required></div>
+      <div class="form-field"><label data-i18n="form.mensagem">Mensagem</label><textarea id="cf-msg" rows="4" required></textarea></div>
+      <button type="submit" class="btn btn-primary full-btn" data-i18n="form.enviar">Enviar</button>
     </form>
   </div>
 </div>
@@ -185,7 +185,7 @@
     <div class="term" style="margin:0;">
       <div class="term-bar"><span></span><span></span><span></span></div>
       <div class="term-body" id="termOutput" style="max-height:260px;overflow-y:auto;">
-        <div>Bem-vindo. Digite <span class="p">help</span> pra ver os comandos.</div>
+        <div data-i18n="term.boasvindas">Bem-vindo. Digite <span class="p">help</span> pra ver os comandos.</div>
       </div>
       <div class="terminal-input-row">
         <span class="p">$</span>
