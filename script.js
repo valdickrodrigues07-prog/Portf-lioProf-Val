@@ -83,7 +83,7 @@ function executarComando() {
 
   switch (cmd.toLowerCase()) {
     case "help":
-      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículo, contato, github, resumo, him, clear";
+      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículo, contato, github, resumo, him, clear, --version";
       break;
     case "whoami":
       resp.textContent = "valdick_rodrigues — full stack developer & educador na microlins";
@@ -99,6 +99,8 @@ function executarComando() {
       break;
     case "contato":
       resp.textContent = "instagram: @valdickkkk";
+    case "--version":
+      resp.textContent = "ultima atualização: 28/07/2026";
       break;
     case "github":
       resp.textContent = "valdickrodrigues07-prog";
