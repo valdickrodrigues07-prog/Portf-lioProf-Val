@@ -83,7 +83,7 @@ function executarComando() {
 
   switch (cmd.toLowerCase()) {
     case "help":
-      resp.textContent = "comandos: whoami, sobre, skills, projetos, contato, github, resumo, him, clear";
+      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículos, contato, github, resumo, him, clear";
       break;
     case "whoami":
       resp.textContent = "valdick_rodrigues — full stack developer & educador na microlins";
@@ -102,6 +102,10 @@ function executarComando() {
       break;
     case "github":
       resp.textContent = "configure o link real do github no index.html";
+      break;
+    case "curriculo":
+      resp.textContent = "abrindo currículo...";
+  window.open("https://link-do-seu-curriculo.com", "_blank", "noopener,noreferrer");
       break;
     case "resumo":
       resp.textContent = "portfólio do valdick: desenvolvimento, educação, projetos de tecnologia e skills.";
