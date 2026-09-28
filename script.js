@@ -83,7 +83,7 @@ function executarComando() {
 
   switch (cmd.toLowerCase()) {
     case "help":
-      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículo, contato, github, resumo, him, clear, --version";
+      resp.textContent = "comandos: whoami, sobre, skills, projetos, currículo, contato, github, resumo, him, clear, --version";
       break;
     case "whoami":
       resp.textContent = "valdick_rodrigues — full stack developer & educador na microlins";
@@ -95,7 +95,7 @@ function executarComando() {
       resp.textContent = "python, html/css/js, Hardware, Excel Avançado com VBA, linux (bash), redes e automação";
       break;
     case "projetos":
-      resp.textContent = "ainda nãotem nada aqui rsrs";
+      resp.textContent = "ainda não tem nada aqui rsrs";
       break;
     case "contato":
       resp.textContent = "instagram: @valdickkkk";
