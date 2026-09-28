@@ -54,7 +54,7 @@ function enviarFormulario(e) {
   const email = document.getElementById("cf-email").value;
   const msg = document.getElementById("cf-msg").value;
   const corpo = encodeURIComponent(`Nome: ${nome}\nE-mail: ${email}\n\n${msg}`);
-  window.location.href = "mailto:seu@email.com?subject=Contato pelo site&body=" + corpo;
+  window.location.href = "mailto:Valprograming07@outlook.com?subject=Contato pelo site&body=" + corpo;
   return false;
 }
 
@@ -83,7 +83,7 @@ function executarComando() {
 
   switch (cmd.toLowerCase()) {
     case "help":
-      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículos, contato, github, resumo, him, clear";
+      resp.textContent = "comandos: whoami, sobre, skills, projetos,currículo, contato, github, resumo, him, clear";
       break;
     case "whoami":
       resp.textContent = "valdick_rodrigues — full stack developer & educador na microlins";
@@ -92,16 +92,16 @@ function executarComando() {
       resp.textContent = "full stack dev + educador na microlins, formado em desenvolvimento web pela escola virtual (fundação bradesco)";
       break;
     case "skills":
-      resp.textContent = "python, html/css/js, sql, power bi, linux (bash), redes e automação";
+      resp.textContent = "python, html/css/js, Hardware, Excel Avançado com VBA, linux (bash), redes e automação";
       break;
     case "projetos":
-      resp.textContent = "micromundo, netcheck, workshop de ia, chega pra cá, churrascaria do thur";
+      resp.textContent = "ainda nãotem nada aqui rsrs";
       break;
     case "contato":
       resp.textContent = "instagram: @valdickkkk";
       break;
     case "github":
-      resp.textContent = "configure o link real do github no index.html";
+      resp.textContent = "valdickrodrigues07-prog";
       break;
     case "curriculo":
       resp.textContent = "abrindo currículo...";
