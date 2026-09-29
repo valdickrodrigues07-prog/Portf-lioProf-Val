@@ -246,7 +246,7 @@ function executarComando() {
   } else if (termResponses[cmd]) {
     resp.textContent = termResponses[cmd][currentLang];
     if (cmd === "curriculo") {
-      window.open("https://onedrive.live.com/?id=%2Fpersonal%2FCD638E64F907256B%2FDocuments%2FDocumentos%2FDOC%2D20260802%2DWA0009%2E%2Epdf&listurl=%2Fpersonal%2FCD638E64F907256B%2FDocuments&ithint=file%2Cpdf&e=fPtbU5&migratedtospo=true&parent=%2Fpersonal%2FCD638E64F907256B%2FDocuments%2FDocumentos&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9DRDYzOEU2NEY5MDcyNTZCL0lRQWkzVmE3MTBXZFRvVUZwejhLX2dNRUFiWWxPNkFWanBIM0JCRlBQRlIxRmtZP2U9ZlB0YlU1&ga=1&fbclid=PAT01DUAUnNrlleHRuA2FlbQIxMABwZG9mAnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5vfSOl3UaDxkH1s-RqshRB2AHUgGr86XWW9N7JBuxAlQ6YBf67A1Dq-3wBb_aem_1CVJI9wkaTVcXP1VuN0qZg", "_blank", "noopener,noreferrer");
+      window.open("https://1drv.ms/b/c/CD638E64F907256B/IQAi3Va710WdToUFpz8K_gMEAbYlO6AVjpH3BBFPPFR1FkY?e=t7btsN");
     }
   } else {
     resp.textContent = termResponses.naoencontrado[currentLang];
