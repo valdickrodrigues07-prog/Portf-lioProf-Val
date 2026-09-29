@@ -17,7 +17,7 @@ const i18nText = {
   "sobre.text1":          { pt: `Sou desenvolvedor full stack e também atuo na área pedagógica da Microlins, onde ajudo
     pessoas a desenvolverem comunicação, organização e habilidades de tecnologia.
     Minha formação em desenvolvimento web foi feita pela Escola Virtual da Fundação Bradesco,
-    e continuo estudando Python, HTML/CSS/JS, SQL, Power BI e Linux na prática.`,
+    e continuo estudando Python, HTML/CSS/JS, SQL (Básico), Excel, Pacote Oficce e Linux na prática.`,
                              en: `I'm a full stack developer who also works in the pedagogical side of Microlins, helping
     people build communication, organization and technology skills.
     My web development training came from Fundação Bradesco's Escola Virtual,
